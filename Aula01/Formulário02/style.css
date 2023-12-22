@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+main{
+    display: flex;
+    margin: auto;
+    border: 1px solid black;
+    height: 98vh;
+    max-width: 1100px;
+}
+
+fieldset{
+    padding: 10px;
+    position: absolute;
+    background-size: 100%;
+    max-height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+}
+button{
+    display: flex;
+    margin: auto;
+}
+select{
+    display: block;
+    margin-top: 5px;
+}
+

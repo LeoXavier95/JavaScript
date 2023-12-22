@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    background-image: url('https://previews.123rf.com/images/kostafly/kostafly1710/kostafly171000051/87554907-the-creative-background-gorgeous-background-for-a-site-or-form-consists-of-fantastic-shapes-and.jpg');
+    height: 98vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    margin: 10px;
+}
+
+h2,ul,table{
+    margin-left: 30px;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    max-width: 500px;
+    border:1px rgb(0, 0, 0) solid ;
+    height:88vh;
+   
+}
+
+ul{
+    list-style-position: inside; 
+}
+
+table,tr,th{
+    border:1px rgb(0, 0, 0) solid ;
+}
+
+img{
+    display: flex;
+    margin: auto;
+    height: 100px;
+    width: 150px;
+}
+
+a{
+    display: flex;
+    margin: 20px auto 0 auto;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 90px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Avaliação regimental</h1>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Dados pessoais do aluno</legend>
+                    <label for="txt_nome">Nome:</label>
+                    <input type="text" name="txt_nome" id="txt_nome"><br>
+                    <label for="txt_email">E-mail:</label>
+                    <input type="text" name="txt_email" id="txt_email"><br>
+                <select name="curso">
+                    <option hidden>Selecione o curso</option>
+                    <option value="1">ADS</option>
+                    <option value="2">CCP</option>
+                </select>
+                <form class="form_perguntas">
+                    <div class="q1">
+                        <h2>Questão 1</h2>
+                        <p>Qual dos times abaixo é o unico que ganhou 3 Libertadores e 3 mundiais</p>
+                        <P class="questao">
+                            A - <input type="radio" name="q1" value="c1">Curithia
+                            B - <input type="radio" name="q1" value="c2">Parmeira
+                            C - <input type="radio" name="q1" value="c3">Santos
+                            D - <input type="radio" name="q1" value="c4">São Paulo
+                        </P>
+                    </div>
+            
+                    <div class="q2">
+                        <h2>Questão 2</h2>
+                        <p>Qual Jogos abaixo voce já jogou</p>
+                        <p class="questao">
+                            A - <input type="checkbox" name="q2" value="j1">God of War<br>
+                            B - <input type="checkbox" name="q2" value="j2">Sonic Mania<br>
+                            C - <input type="checkbox" name="q2" value="j3">Mario Kart 8<br>
+                            D - <input type="checkbox" name="q2" value="j4">FIFA 2023<br>
+                            E - <input type="checkbox" name="q2" value="j5">Halo 5<br>
+                            F - <input type="checkbox" name="q2" value="j6">GTA 5<br>
+                            G - <input type="checkbox" name="q2" value="j7">Pokemon Arceus
+                        </p>
+                        <button type="submit">Enviar</button>
+                    </div>
+            </fieldset>
+
+        </form>
+       
+    </main>
+</body>
+</html>
