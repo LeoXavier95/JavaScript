@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="genero">Genero</label>
+        <select name="genero" id="genero">
+            <option value="" hidden>Selecione as opções</option>
+            <option value="0">Masculino</option>
+            <option value="1">Feminino</option>
+        </select>
+        <br>
+        <label for="altura">Altura</label>
+        <input type="text" id="altura">
+        <br>
+        <button type="button" id="btn1">Cadastrar</button>
+        <button type="button" id="btn2">Mostrar</button>
+        <button type="button" id="btn3">Média</button>
+        <br>
+        <input type="text" id="media_m" readonly><br>
+        <input type="text" id="media_f" readonly>
+    </form>
+    <div id="m"></div>
+    <div id="f"></div>
+
+    <script src="js/script4.js"></script>
+</body>
+</html>
